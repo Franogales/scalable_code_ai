@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "stacks": {
+    "dart/flutter": {
+      "scripts": [
+        {
+          "source": "dart/flutter/scripts/scalable_code_check.dart",
+          "dest": "tool/scalable_code_check.dart"
+        }
+      ],
+      "skills": [
+        {
+          "name": "scalable-code-setup",
+          "files": [
+            {
+              "source": "dart/flutter/skills/scalable-code-setup/SKILL.md",
+              "dest": "SKILL.md"
+            }
+          ]
+        },
+        {
+          "name": "scalable-code-check",
+          "files": [
+            {
+              "source": "dart/flutter/skills/scalable-code-check/SKILL.md",
+              "dest": "SKILL.md"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
